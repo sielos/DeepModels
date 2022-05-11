@@ -15,4 +15,6 @@ In order to generate DNN models for cifar10 dataset use command:
 python cifar10_DNNs.py
 ```
 
-The generated models will appear under the models directory.
+The generated models will appear under the models directory. 
+
+To use these models for DeepConcolic tool copy the model file (.h5) to DeepConcolic/saved_models/ directory.
